@@ -17,12 +17,24 @@
         </div>-->
         <div class="row justify-content-center mt-5">
 
-
             {% if favMovie %}
-                {% for k,v in favMovie.items() %}
-                    {{ k + 1 }}. {{ v }}
-                    <br>
-                {% endfor %}
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Movies</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for k,v in favMovie.items() %}
+                        <tr>
+
+                            <th scope="row">{{ k + 1 }}</th>
+                            <td>{{ v }}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
             {% else %}
                 <p>We don't have the specified title in our records!</p>
             {% endif %}
