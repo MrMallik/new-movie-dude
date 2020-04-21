@@ -1,5 +1,6 @@
 # new-movie-dude
-A naive movie recommendation with simple Web UI. The starting point of the project is this : https://tinyurl.com/movie-recommender
+A naive movie recommendation with simple Web UI.
+The starting point of the project is [this](https://tinyurl.com/movie-recommender). The total credit of writing the script to recommend movies goes to **CodeHeroku**.
 
 # Requirements
 Python 3
@@ -7,7 +8,7 @@ Python 3
 # Setup
 - Clone the repo
 ```
-git clone https://github.com/MrMallik/movie-dude.git
+git clone https://github.com/MrMallik/new-movie-dude.git
 ```
 - Create a virtual environment in the project directory
 ```
