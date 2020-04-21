@@ -1,5 +1,5 @@
 # new-movie-dude
-A naive movie recommendation with simple Web UI
+A naive movie recommendation with simple Web UI. The starting point of the project is this : https://tinyurl.com/movie-recommender
 
 # Requirements
 Python 3
