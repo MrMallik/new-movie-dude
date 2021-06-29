@@ -38,12 +38,6 @@ for feature in features:
 df["combined_features"] = df.apply(combine_features,axis=1)
 
 
-# In[6]:
-
-
-#df.iloc[0].combined_features
-
-
 # In[7]:
 
 
