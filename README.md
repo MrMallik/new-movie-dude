@@ -1,11 +1,12 @@
 # new-movie-dude
-A naive movie recommendation with simple Web UI.
-The starting point of the project is [this](https://tinyurl.com/movie-recommender). The total credit of writing the script to recommend movies goes to **CodeHeroku**.
+A Simple Movie Recommendation System built on Top of Python Flask Framework with Bootstrap for Frontend
+
+The code is live **[here](https://movie-dude.herokuapp.com/)**
 
 # Requirements
 Python 3
 
-# Setup
+# Setup for Local Use
 - Clone the repo
 ```
 git clone https://github.com/MrMallik/new-movie-dude.git
